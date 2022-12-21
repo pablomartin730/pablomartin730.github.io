@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-457QV1CJ2M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-457QV1CJ2M');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Martin de Pozuelo Fernandez Caballero</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PM</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">FORMACION</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="img/pablo.png" alt="Foto de Pablo Martin de Pozuelo">
+            </div>
+            <h1>PABLO MARTIN DE POZUELO</h1>
+            <h2>Ingeniero Informático - Especialista TI</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/pabloo730/" target="blanck"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pablo-martin-de-pozuelo-fernandez-caballero" target="blanck"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Pablo Martin de Pozuelo.</span> Soy un estudiante en el último año del
+                Grado de Ingeniería Informática en la
+                Escuela Superior de Informática (ESI)
+                de la Universidad de Castilla-La Mancha
+                (UCLM).
+                He cursado la modalidad bilingüe del
+                grado y he realizado parte de mis
+                estudios con una beca Erasmus+ en la
+                Vilnius University (VU) en Lituania.
+                Estoy especializado en la rama de
+                Tecnologías de la Información.</p>
+        
+            <div class="fila">
+                <!--datos personales-->
+                <div class="columna">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 603694960
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pablo.martindepoz@gmail.com
+                        </li>
+                        <li>
+                            <strong>Web</strong>
+                            www.ejemplo.com
+                        </li>
+                        <li>
+                            <strong>Domicilio</strong>
+                            Ciudad Real, España
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="columna">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>GUITARRA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTO</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>E-SPORTS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="../portofolio/Pablo_Martin_de_PozueloCV.pdf" download>
+                Descargar CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Competencias digitales-->
+                <div class="columna">
+                    <h3>Competencias Digitales</h3>
+                    <div class="habilidad">
+                        <span>Lenguajes de Programacion</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso">
+                                <span>Java, C, MySQL, Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Desarrollo Web</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso">
+                                <span>HTML, CSS, JS, Prestashop</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Entorno de Desarrollo</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso">
+                                <span>Eclipse, Virtual Studio Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Datos de interes-->
+                <div class="columna">
+                    <h3>Datos de interes</h3>
+                    <div class="habilidad">
+                        <span>Experiecia entorno internacional</span>
+                    </div>
+                    <div class="habilidad">
+                        <span>Adaptabilidad, proactividad, trabajo en equipo y liderazgo</span>
+                    </div>
+                    <div class="habilidad">
+                        <span>Permiso B</span>
+                    </div>
+                    <div class="habilidad">
+                        <span>B2 Ingles</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso">
+                                <span>Cambridge English Certificate (FIRST)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>FORMACION</h2>
+            <div class="fila">
+                <div class="columna izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Grado Ingeniería Informática. Tecnologías
+                            de la Información (Modalidad bilingüe)
+                            </h4>
+                        <span class="casa">Escuela Superior de Informática, Universidad de
+                            Castilla-La Mancha.</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachelor's Degree in Computer Science</h4>
+                        <span class="casa">Vilnius University (Lituania). Movilidad Erasmus+</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columna derecha">
+                    <h3>Cursos y Certificados</h3>
+                    <div class="item der">
+                        <h4>Desarrollo de Apps Móviles</h4>
+                        <span class="casa">Curso de la plataforma Google Activate</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div><div class="item der">
+                        <h4>Cloud Computing</h4>
+                        <span class="casa">Curso de la plataforma Google Activate</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                   <a href="https://github.com/pablomartin730/Songify"><img src="img/songify.PNG" alt="songify"></a>
+                    <div class="overlay">
+                        <h3>Songify</h3>
+                        <p>Proyecto BD</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/pablomartin730/Juego-de-plataformas"><img src="img/roboAdventures.PNG" alt=""></a>
+                    <div class="overlay">
+                        <h3>RoboAdventures</h3>
+                        <p>Plataformer 3D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="columna">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero de telefono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="columna">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Ciudad Real, España
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                +34 603694960
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-square-envelope"></i>
+                                Email: pablo.martindepoz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-sharp fa-solid fa-arrow-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/pabloo730/" target="blanck"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/pablo-martin-de-pozuelo-fernandez-caballero" target="blanck"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
